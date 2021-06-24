@@ -21,8 +21,6 @@ set -x PATH $HOME/.pub-cache/bin $PATH
 #set -gx PATH $HOME/.anyenv/bin $PATH
 #eval (command anyenv init - fish)
 
-# mysql@5.7
-#set -x PATH /opt/homebrew/opt/mysql@5.7/bin $PATH
 
 ## fiser ##
 # 時計を非表示
