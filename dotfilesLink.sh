@@ -1,11 +1,11 @@
 #!/bin/bash
 
-ln -sf ~/GitHub/dotfiles/vimrc ~/.vimrc
-ln -sf ~/GitHub/dotfiles/colors ~/.vim
+ln -sf ~/dotfiles/vimrc ~/.vimrc
+ln -sf ~/dotfiles/colors ~/.vim
 
 if [ "`echo $SHELL | grep 'fish'`" ]; then
   echo "containing fish"
-  ln -sf ~/GitHub/dotfiles/config.fish ~/.config/fish/config.fish
+  ln -sf ~/dotfiles/config.fish ~/.config/fish/config.fish
 else
   echo "not contain fish"
 fi
