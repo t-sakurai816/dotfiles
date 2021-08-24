@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ln -sf ~/dotfiles/vimrc ~/.vimrc
+mkdir -p ~/.vim/colors
 ln -sf ~/dotfiles/colors ~/.vim/colors
 
 if [ "`echo $SHELL | grep 'fish'`" ]; then
@@ -9,5 +10,3 @@ if [ "`echo $SHELL | grep 'fish'`" ]; then
 else
   echo "not contain fish"
 fi
-
-printf '\033[32mSUCCESS\033[m'
