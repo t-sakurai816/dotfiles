@@ -1,7 +1,10 @@
 #!/bin/bash
 
 ln -sf ~/dotfiles/vimrc ~/.vimrc
-mkdir ~/.vim
+# .vimディレクトリがない場合は作成
+if [ ! -d ~/.vim ]; then
+  mkdir ~/.vim
+fi 
 ln -sf ~/dotfiles/colors ~/.vim/colors
 
 if [ "`echo $SHELL | grep 'fish'`" ]; then
