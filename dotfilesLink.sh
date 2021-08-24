@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ln -sf ~/dotfiles/vimrc ~/.vimrc
-mkdir -p ~/.vim/colors
+mkdir ~/.vim
 ln -sf ~/dotfiles/colors ~/.vim/colors
 
 if [ "`echo $SHELL | grep 'fish'`" ]; then
