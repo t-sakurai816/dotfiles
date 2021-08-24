@@ -5,7 +5,7 @@ ln -sf ~/dotfiles/vimrc ~/.vimrc
 if [ ! -d ~/.vim ]; then
   mkdir ~/.vim
 fi 
-ln -sf ~/dotfiles/colors ~/.vim/colors
+ln -s ~/dotfiles/colors ~/.vim/colors
 
 if [ "`echo $SHELL | grep 'fish'`" ]; then
   echo "containing fish"
