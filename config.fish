@@ -17,11 +17,8 @@ set -x PATH $HOME/fvm/default/bin $PATH
 # riverpod
 set -x PATH $HOME/.pub-cache/bin $PATH
 
-# anyenv
-#set -gx PATH $HOME/.anyenv/bin $PATH
-#eval (command anyenv init - fish)
-
-
+# nodenv
+status --is-interactive; and source (nodenv init -|psub)
 ## fiser ##
 # 時計を非表示
 set -g theme_display_date no
