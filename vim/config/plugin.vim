@@ -26,7 +26,7 @@ Plug 'mattn/vim-lexiv'
 Plug 'luochen1990/rainbow'
 
 " comment line
-Plug 'tpope/vim-commentary'
+" Plug 'tpope/vim-commentary'
 
 " emmet
 " ,<c-y>
