@@ -33,7 +33,7 @@ Plug 'tpope/vim-commentary'
 Plug 'mattn/emmet-vim'
 
 " make table for markdown
-Plug 'mattn/vim-maketable'
+" Plug 'mattn/vim-maketable'
 
 " markdown
 Plug 'violetyk/iikanji-markdown.vim'
@@ -46,12 +46,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'simeji/winresizer'
 
 " repeat complex commands
-Plug 'tpope/vim-repeat'
+" Plug 'tpope/vim-repeat'
 
 " change quotation
 " cs '"
 " ds '
-Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-surround'
 
 " replace
 " 変数一度に全部カエラエル
@@ -63,12 +63,12 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 
 " fuzzy finder
-Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'ctrlpvim/ctrlp.vim'
 
 " fzf
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'chengzeyi/fzf-preview.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'junegunn/fzf.vim'
+" Plug 'chengzeyi/fzf-preview.vim'
 
 " Popup your buffer
 "Plug 'yCroma/pobls.vim'
