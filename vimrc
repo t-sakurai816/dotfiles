@@ -1,4 +1,4 @@
-colorscheme molokai " カラースキームにmolokaiを設定する
+colorscheme monokai " カラースキームにmonokaiを設定する
 
 " setting
 "文字コードをUFT-8に設定
