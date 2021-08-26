@@ -39,7 +39,7 @@ Plug 'mattn/emmet-vim'
 Plug 'violetyk/iikanji-markdown.vim'
 
 " lsp
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " window resizing
 " <c-e>
