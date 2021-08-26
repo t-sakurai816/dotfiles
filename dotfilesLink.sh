@@ -12,7 +12,7 @@ if [ "`echo $SHELL | grep 'fish'`" ]; then
   ln -sf ~/dotfiles/config.fish ~/.config/fish/config.fish
 else if [ "`echo $SHELL | grep 'ash'`" ]; then
   echo "containing ash"
-  ls -sf ~/dotfiles/ashrc ~/.ashrc
+  ln -sf ~/dotfiles/ashrc ~/.ashrc
 else
   echo "not contain fish"
 fi
